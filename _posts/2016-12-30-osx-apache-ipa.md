@@ -100,11 +100,8 @@ apache的配置文件httpd.conf中默认是存在类似的指令的，不过在�
 想要使用域名访问本地的服务器需要编辑 /etc/hosts 文件，绑定一下域名，这里添加的是：  
 **127.0.0.1　　gzl.com**  
 这时候在safari中访问https://gzl.com，会提示证书不信任，双击生成的证书文件server.crt安装，选择始终信任，刷新后在地址栏即可以看到安全的标志，如果没修改过本地服务器首页内容的话，会默认显示It works！
-<br>
-<br>
-<br>
+
 ### 下面说一下ipa相关的静态html页面和plist设置 
-<br>
 #### index.html:  
 
 	<html><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -154,9 +151,7 @@ apache的配置文件httpd.conf中默认是存在类似的指令的，不过在�
 			speex.plist
 			speex.ipa
 		index.html	
-<br>
-### 最后说一下iPhone如何访问本地服务器安装ipa  
-<br>
+### 最后说一下iPhone如何访问本地服务器安装ipa
 访问本地服务器使用了mac充当代理的方法，步骤如下：
 
 1. mac和iPhone连接同一个wifi，这里使用现有的charels开启代理，打开iPhone 设置--无线局域网，设置wifi的HTTP代理，选手动输入mac连接wifi的ip地址，端口号8888（charels默认），不明白的可以参考[MAC上charles使用教程总结](http://www.jianshu.com/p/18449f5f9d1c)，*当然如果有其他可以在mac上开启代理的软件也是可以的*
