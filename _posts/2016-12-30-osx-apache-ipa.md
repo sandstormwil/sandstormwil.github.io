@@ -102,6 +102,7 @@ apache的配置文件httpd.conf中默认是存在类似的指令的，不过在�
 这时候在safari中访问https://gzl.com，会提示证书不信任，双击生成的证书文件server.crt安装，选择始终信任，刷新后在地址栏即可以看到安全的标志，如果没修改过本地服务器首页内容的话，会默认显示It works！
 
 ### 下面说一下ipa相关的静态html页面和plist设置 
+
 #### index.html:  
 
 	<html><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -151,6 +152,7 @@ apache的配置文件httpd.conf中默认是存在类似的指令的，不过在�
 			speex.plist
 			speex.ipa
 		index.html	
+		
 ### 最后说一下iPhone如何访问本地服务器安装ipa
 访问本地服务器使用了mac充当代理的方法，步骤如下：
 
