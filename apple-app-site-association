@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "L354QYQ5WJ.com.orangevip.recitewords",
+            "paths": ["/app/*"]
+            },
+            {
+            "appID": "L354QYQ5WJ.com.xcgl.chengla",
+            "paths": ["/app/*"]
+        }]
+    }
+}
