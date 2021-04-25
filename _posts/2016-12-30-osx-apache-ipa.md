@@ -92,7 +92,7 @@ SSLSessionCache: 'shmcb' session cache not supported (known names: ). Maybe you 
 2. 是因为httpd.conf文件中的ServerName没有配置，处于缺省状态。  
 只需要在apache安装目录/etc/apache2/httpd.conf文件中启用ServerName配置指令即可。  
 apache的配置文件httpd.conf中默认是存在类似的指令的，不过在该指令前添加了＃号，注释掉了该句，我们只需要模仿着增加一行：  
-**ServerName gzl.com:80 ** 
+**ServerName gzl.com:80** 
 
 最后出现 ** Syntax OK** 即说明配置正确，重启Apache就可以了  
 **sudo apachectl restart**
